@@ -1,0 +1,30 @@
+body {
+  background-color: aliceBlue;
+  color: navy;
+}
+
+nav ul {
+  list-style-type: none;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  background-color: navy;
+  padding: 0.8em 0.8em;
+  float: left;
+}
+
+li a {
+  color: aliceBlue;
+  text-decoration: none;
+  padding: 0.8em 0.8em;
+  text-align: center;
+}
+
+li a:hover {
+  color: navy;
+  background-color: aliceBlue;
+}
