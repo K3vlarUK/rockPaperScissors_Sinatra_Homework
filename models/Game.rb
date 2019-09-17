@@ -13,8 +13,10 @@ class Game
       return "Player 2 Wins"
     elsif player1 == "rock" && player2 == "paper"
       return "Player 2 Wins"
-    else
+    elsif player1 == player2
       return "It is a draw!"
+    else
+      return "Invalid input!"
     end
   end
 
